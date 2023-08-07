@@ -19,7 +19,8 @@ const Chat = ({location}) => {
     const [messages,setMessages] = useState([])
 
 
-    const ENDPOINT = 'https://chatapp24-7.herokuapp.com/'
+    // const ENDPOINT = 'https://chatapp24-7.herokuapp.com/'
+    const ENDPOINT = 'https://confusion-rambunctious-banana.glitch.me/'
 
     useEffect(()=>{
         const {name , room} =queryString.parse(location.search) 
