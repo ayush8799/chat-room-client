@@ -21,7 +21,8 @@ const Chat = ({location}) => {
 
     // const ENDPOINT = 'https://chatapp24-7.herokuapp.com/'
     // const ENDPOINT = 'https://confusion-rambunctious-banana.glitch.me/'
-    const ENDPOINT = 'https://chat-room-server.vercel.app/'
+    // const ENDPOINT = 'https://chat-room-server.vercel.app/'
+    const ENDPOINT = 'https://chat-room-server-8vx0.onrender.com/'
 
     useEffect(()=>{
         const {name , room} =queryString.parse(location.search) 
