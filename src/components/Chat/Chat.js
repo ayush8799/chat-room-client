@@ -20,7 +20,8 @@ const Chat = ({location}) => {
 
 
     // const ENDPOINT = 'https://chatapp24-7.herokuapp.com/'
-    const ENDPOINT = 'https://confusion-rambunctious-banana.glitch.me/'
+    // const ENDPOINT = 'https://confusion-rambunctious-banana.glitch.me/'
+    const ENDPOINT = 'https://chat-room-server.vercel.app/'
 
     useEffect(()=>{
         const {name , room} =queryString.parse(location.search) 
